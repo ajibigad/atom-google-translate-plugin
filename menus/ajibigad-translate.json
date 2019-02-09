@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Translate",
+        "command": "ajibigad-translate:translate"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ajibigad-translate",
+          "submenu": [
+            {
+              "label": "Translate",
+              "command": "ajibigad-translate:translate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

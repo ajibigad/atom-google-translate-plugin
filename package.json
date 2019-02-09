@@ -1,0 +1,21 @@
+{
+  "name": "ajibigad-translate",
+  "main": "./lib/ajibigad-translate",
+  "version": "0.0.0",
+  "description": "A package for translating text using google translate",
+  "keywords": [
+    "google translate",
+    "google-translate"
+  ],
+  "activationCommands": {
+    "atom-workspace": "ajibigad-translate:translate"
+  },
+  "repository": "https://github.com/atom/ajibigad-translate",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
